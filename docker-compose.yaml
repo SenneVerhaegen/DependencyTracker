@@ -6,9 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - GitHubPat
-      - AzureDevopsPat
-      - TempDir
-      - OutputDir
+      - GitHubPat=<YOUR_PAT>
+      - AzureDevopsPat=<YOUR_PAT>
+      - TempDir=/dependency-tracker/tmp
+      - OutputDir=/dependency-tracker/output
     volumes:
       - :/dependency-tracker/output
