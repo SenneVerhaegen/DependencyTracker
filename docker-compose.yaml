@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  dependency-tracker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - GitHubPat
+      - AzureDevopsPat
+      - TempDir
+      - OutputDir
+    volumes:
+      - :/dependency-tracker/output

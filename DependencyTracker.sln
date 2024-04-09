@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyTracker.Client", "DependencyTracker.Client\DependencyTracker.Client.csproj", "{4B793E56-BE9B-4DFE-ADAE-07FA2BEF31CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyTracker", "DependencyTracker\DependencyTracker.csproj", "{5180A45E-0EE0-4F0A-975A-5D740543CF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{EA34CCAE-668D-4493-B418-738809540915}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+		docker-compose.yaml = docker-compose.yaml
+		docker-compose.Development.yaml = docker-compose.Development.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B793E56-BE9B-4DFE-ADAE-07FA2BEF31CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B793E56-BE9B-4DFE-ADAE-07FA2BEF31CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B793E56-BE9B-4DFE-ADAE-07FA2BEF31CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B793E56-BE9B-4DFE-ADAE-07FA2BEF31CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5180A45E-0EE0-4F0A-975A-5D740543CF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5180A45E-0EE0-4F0A-975A-5D740543CF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5180A45E-0EE0-4F0A-975A-5D740543CF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5180A45E-0EE0-4F0A-975A-5D740543CF11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
